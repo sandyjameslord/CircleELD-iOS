@@ -11,7 +11,7 @@ class UnitChoiceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.modalPresentationStyle = .fullScreen
         let button = continueToActvitySelectorButton()
         view.addSubview(button)
         view.backgroundColor = .systemRed
@@ -29,7 +29,7 @@ class UnitChoiceViewController: UIViewController {
     
     @objc func openActivitySelectorViewController() {
 //        let newViewController = LogInViewController()
-        ActivitySelectorViewController().modalPresentationStyle = .fullScreen
-        present(ActivitySelectorViewController(), animated:true, completion:nil)
+        ChooseByThemeViewController().modalPresentationStyle = .fullScreen
+        present(ChooseByThemeViewController(), animated:true, completion:nil)
     }
 }

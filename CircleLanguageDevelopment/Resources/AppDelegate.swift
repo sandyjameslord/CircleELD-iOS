@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.makeKeyAndVisible()
         self.window = window
         
-        
+//        NotificationCenter.default.addObserver(self, selector: #selector(AppDelegate.rotated), name: UIDevice.orientationDidChangeNotification, object: nil)
         
         // Override point for customization after application launch.
         return true
@@ -83,6 +83,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+    
+//    @objc func rotated() {
+//        if UIDevice.current.orientation.isLandscape {
+//            print("Landscape")
+//        }
+//
+//        if UIDevice.current.orientation.isPortrait {
+//            print("Portrait")
+//        }
+//    }
 
 }
 

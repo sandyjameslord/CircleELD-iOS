@@ -11,6 +11,7 @@ class RandomThemeGeneratorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.modalPresentationStyle = .fullScreen
         view.backgroundColor = .systemOrange
         // Do any additional setup after loading the view.
         let button = continueToActvitySelectorButton()
@@ -24,14 +25,14 @@ class RandomThemeGeneratorViewController: UIViewController {
         button.backgroundColor = .systemGray
         button.tintColor = .black
         button.setTitle("Continue to activity selector", for: .normal)
-        button.addTarget(self, action: #selector(self.openActivitySelectorViewController), for: .touchUpInside)
+        button.addTarget(self, action: #selector(self.openChooseByThemeViewController), for: .touchUpInside)
         return button
     }
     
-    @objc func openActivitySelectorViewController() {
+    @objc func openChooseByThemeViewController() {
 //        let newViewController = LogInViewController()
-        ActivitySelectorViewController().modalPresentationStyle = .fullScreen
-        present(ActivitySelectorViewController(), animated:true, completion:nil)
+        ChooseByThemeViewController().modalPresentationStyle = .fullScreen
+        present(ChooseByThemeViewController(), animated:true, completion:nil)
     }
 
 

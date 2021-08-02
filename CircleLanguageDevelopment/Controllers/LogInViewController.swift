@@ -11,6 +11,7 @@ class LogInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.modalPresentationStyle = .fullScreen
         view.backgroundColor = .systemGray
         let label = UILabel(frame: CGRect(x: 10, y: 10, width: 100, height: 100))
         label.text = "LogIn"

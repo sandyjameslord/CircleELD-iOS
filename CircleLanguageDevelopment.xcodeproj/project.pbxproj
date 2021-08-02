@@ -16,18 +16,17 @@
 		38A99A692698D92900E7F699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A99A672698D92900E7F699 /* LaunchScreen.storyboard */; };
 		38A99A772698DC6200E7F699 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A762698DC6200E7F699 /* LogInViewController.swift */; };
 		38A99A7A2698DC8A00E7F699 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A792698DC8A00E7F699 /* SignUpViewController.swift */; };
-		38A99A7E2698DCD800E7F699 /* ThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A7D2698DCD800E7F699 /* ThemeChoiceViewController.swift */; };
 		38A99A812698DCF500E7F699 /* UnitChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A802698DCF500E7F699 /* UnitChoiceViewController.swift */; };
 		38A99A832698DD0700E7F699 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A822698DD0700E7F699 /* SearchViewController.swift */; };
-		38A99A852698DD2200E7F699 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A842698DD2200E7F699 /* SearchResultsViewController.swift */; };
-		38A99A872698DD3500E7F699 /* ActivitySelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A862698DD3500E7F699 /* ActivitySelectorViewController.swift */; };
+		38A99A852698DD2200E7F699 /* Ex1NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A842698DD2200E7F699 /* Ex1NewViewController.swift */; };
+		38A99A872698DD3500E7F699 /* ChooseByThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A862698DD3500E7F699 /* ChooseByThemeViewController.swift */; };
 		38A99A892698DD6D00E7F699 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A882698DD6D00E7F699 /* MainTabBarViewController.swift */; };
 		38A99A8B2698DD9200E7F699 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A8A2698DD9200E7F699 /* AuthManager.swift */; };
-		38A99A8D2698DDA300E7F699 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A8C2698DDA300E7F699 /* DataManager.swift */; };
+		38A99A8D2698DDA300E7F699 /* JSONDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A8C2698DDA300E7F699 /* JSONDataManager.swift */; };
 		38A99A8F2698DDBE00E7F699 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A8E2698DDBE00E7F699 /* HapticsManager.swift */; };
 		38A99A912698DDD800E7F699 /* CircleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A902698DDD800E7F699 /* CircleData.swift */; };
 		38A99A93269A13F800E7F699 /* RandomThemeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99A92269A13F800E7F699 /* RandomThemeGeneratorViewController.swift */; };
-		38A99ADD269CC31400E7F699 /* Ex1IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A99ADC269CC31400E7F699 /* Ex1IntroductionViewController.swift */; };
+		38C761FD26A7173B00E634CB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C761FC26A7173B00E634CB /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,18 +41,17 @@
 		38A99A6A2698D92900E7F699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A99A762698DC6200E7F699 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		38A99A792698DC8A00E7F699 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		38A99A7D2698DCD800E7F699 /* ThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChoiceViewController.swift; sourceTree = "<group>"; };
 		38A99A802698DCF500E7F699 /* UnitChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitChoiceViewController.swift; sourceTree = "<group>"; };
 		38A99A822698DD0700E7F699 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		38A99A842698DD2200E7F699 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
-		38A99A862698DD3500E7F699 /* ActivitySelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySelectorViewController.swift; sourceTree = "<group>"; };
+		38A99A842698DD2200E7F699 /* Ex1NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex1NewViewController.swift; sourceTree = "<group>"; };
+		38A99A862698DD3500E7F699 /* ChooseByThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseByThemeViewController.swift; sourceTree = "<group>"; };
 		38A99A882698DD6D00E7F699 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		38A99A8A2698DD9200E7F699 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
-		38A99A8C2698DDA300E7F699 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		38A99A8C2698DDA300E7F699 /* JSONDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDataManager.swift; sourceTree = "<group>"; };
 		38A99A8E2698DDBE00E7F699 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		38A99A902698DDD800E7F699 /* CircleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleData.swift; sourceTree = "<group>"; };
 		38A99A92269A13F800E7F699 /* RandomThemeGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomThemeGeneratorViewController.swift; sourceTree = "<group>"; };
-		38A99ADC269CC31400E7F699 /* Ex1IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex1IntroductionViewController.swift; sourceTree = "<group>"; };
+		38C761FC26A7173B00E634CB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +102,12 @@
 				38A99A5D2698D92700E7F699 /* WelcomeViewController.swift */,
 				38A99A762698DC6200E7F699 /* LogInViewController.swift */,
 				38A99A792698DC8A00E7F699 /* SignUpViewController.swift */,
-				38A99A7D2698DCD800E7F699 /* ThemeChoiceViewController.swift */,
 				38A99A802698DCF500E7F699 /* UnitChoiceViewController.swift */,
 				38A99A92269A13F800E7F699 /* RandomThemeGeneratorViewController.swift */,
 				38A99A822698DD0700E7F699 /* SearchViewController.swift */,
-				38A99A842698DD2200E7F699 /* SearchResultsViewController.swift */,
-				38A99A862698DD3500E7F699 /* ActivitySelectorViewController.swift */,
+				38A99A842698DD2200E7F699 /* Ex1NewViewController.swift */,
+				38A99A862698DD3500E7F699 /* ChooseByThemeViewController.swift */,
 				38A99A882698DD6D00E7F699 /* MainTabBarViewController.swift */,
-				38A99ADC269CC31400E7F699 /* Ex1IntroductionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -143,9 +139,10 @@
 			isa = PBXGroup;
 			children = (
 				38A99A8A2698DD9200E7F699 /* AuthManager.swift */,
-				38A99A8C2698DDA300E7F699 /* DataManager.swift */,
+				38A99A8C2698DDA300E7F699 /* JSONDataManager.swift */,
 				38A99A8E2698DDBE00E7F699 /* HapticsManager.swift */,
 				387C59A526A205FA007E3631 /* VariablesManager.swift */,
+				38C761FC26A7173B00E634CB /* CoreDataManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -232,7 +229,7 @@
 				38A99A832698DD0700E7F699 /* SearchViewController.swift in Sources */,
 				38A99A8B2698DD9200E7F699 /* AuthManager.swift in Sources */,
 				38A99A7A2698DC8A00E7F699 /* SignUpViewController.swift in Sources */,
-				38A99A852698DD2200E7F699 /* SearchResultsViewController.swift in Sources */,
+				38A99A852698DD2200E7F699 /* Ex1NewViewController.swift in Sources */,
 				38A99A5E2698D92700E7F699 /* WelcomeViewController.swift in Sources */,
 				38A99A8F2698DDBE00E7F699 /* HapticsManager.swift in Sources */,
 				387C59A626A205FA007E3631 /* VariablesManager.swift in Sources */,
@@ -241,13 +238,12 @@
 				38A99A892698DD6D00E7F699 /* MainTabBarViewController.swift in Sources */,
 				38A99A93269A13F800E7F699 /* RandomThemeGeneratorViewController.swift in Sources */,
 				38A99A772698DC6200E7F699 /* LogInViewController.swift in Sources */,
-				38A99A872698DD3500E7F699 /* ActivitySelectorViewController.swift in Sources */,
+				38A99A872698DD3500E7F699 /* ChooseByThemeViewController.swift in Sources */,
 				38A99A912698DDD800E7F699 /* CircleData.swift in Sources */,
 				38A99A812698DCF500E7F699 /* UnitChoiceViewController.swift in Sources */,
-				38A99ADD269CC31400E7F699 /* Ex1IntroductionViewController.swift in Sources */,
 				38A99A642698D92700E7F699 /* CircleLanguageDevelopment.xcdatamodeld in Sources */,
-				38A99A8D2698DDA300E7F699 /* DataManager.swift in Sources */,
-				38A99A7E2698DCD800E7F699 /* ThemeChoiceViewController.swift in Sources */,
+				38A99A8D2698DDA300E7F699 /* JSONDataManager.swift in Sources */,
+				38C761FD26A7173B00E634CB /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
